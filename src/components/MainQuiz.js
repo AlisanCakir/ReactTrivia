@@ -8,7 +8,7 @@ import * as animationData from '../lottieJson/simpleLoader.json'
 import * as corretAnswerLtt from '../lottieJson/funkyChicken.json'
 import * as wrongAnswerLtt from '../lottieJson/somethingWentWrong.json'
 
-import "../styles.css";
+import "../App.css";
 
 class MainQuiz extends React.Component {
   constructor(props) {
