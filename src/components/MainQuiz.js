@@ -267,7 +267,6 @@ class MainQuiz extends React.Component {
 
   render() {
     const { isDataReady, getQuestions } = this.state;
-    console.warn('get data', getQuestions)
     return (
       <div>
         {this.getHeader()}
