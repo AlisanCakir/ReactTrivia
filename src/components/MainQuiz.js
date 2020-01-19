@@ -61,7 +61,7 @@ class MainQuiz extends React.Component {
   loadQuizData = () => {
     const { selectedDifficulty, categoryId } = this.props.location.state
     const controlDifficulty = (selectedDifficulty === 'any' || !selectedDifficulty) ? '' : `&difficulty=${selectedDifficulty}`
-    const fetchLink = `https://opentdb.com/api.php?amount=3&category=${categoryId}${controlDifficulty}&type=multiple`
+    const fetchLink = `https://opentdb.com/api.php?amount=10&category=${categoryId}${controlDifficulty}&type=multiple`
     fetch(
       fetchLink
     ).then(res => {
